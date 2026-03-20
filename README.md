@@ -1,7 +1,7 @@
 # OpenCLI
 
-> **Make any website or Electron App your CLI.**  
-> Zero risk · Reuse Chrome login · AI-powered discovery · Browser + Desktop automation
+> **Make any website, Electron App, or Local Tool your CLI.**  
+> Zero risk · Reuse Chrome login · AI-powered discovery · Universal CLI Hub
 
 [中文文档](./README.zh-CN.md)
 
@@ -10,6 +10,8 @@
 [![License](https://img.shields.io/npm/l/@jackwener/opencli?style=flat-square)](./LICENSE)
 
 A CLI tool that turns **any website** or **Electron app** into a command-line interface — Bilibili, Zhihu, 小红书, Twitter/X, Reddit, YouTube, Antigravity, and [many more](#built-in-commands) — powered by browser session reuse and AI-native discovery.
+
+💡 **Built for AI Agents**: Simply configure an instruction in your global `AGENT.md` or `.cursorrules` guiding the AI to execute `opencli list` via Bash to discover available tools. Register your favorite local CLIs (`opencli register mycli`), and the AI will automatically learn how to invoke all your tools perfectly!
 
 🔥 **CLI All Electron Apps! The Most Powerful Update Has Arrived!** 🔥
 Turn ANY Electron application into a CLI tool! Recombine, script, and extend applications like Antigravity Ultra seamlessly. Now AI can control itself natively. Unlimited possibilities await!

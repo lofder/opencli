@@ -1,7 +1,7 @@
 # OpenCLI
 
-> **把任何网站或 Electron 应用变成你的命令行工具。**  
-> 零风控 · 复用 Chrome 登录 · AI 自动发现接口 · 浏览器与桌面端自动化
+> **把任何网站、本地工具、Electron 应用变成能够让 AI 调用的命令行！**  
+> 零风控 · 复用 Chrome 登录 · AI 自动发现接口 · 全能 CLI 枢纽
 
 [English](./README.md)
 
@@ -10,6 +10,8 @@
 [![License](https://img.shields.io/npm/l/@jackwener/opencli?style=flat-square)](./LICENSE)
 
 OpenCLI 将任何网站或 Electron 应用（如 Antigravity）变成命令行工具 — B站、知乎、小红书、Twitter/X、Reddit、YouTube 等[多种站点与应用](#内置命令) — 复用浏览器登录态，AI 驱动探索。
+
+💡 **专为 AI Agent 打造**：只需在全局 `.cursorrules` 或 `AGENT.md` 中配置简单指令，引导 AI 通过 Bash 执行 `opencli list` 来检索可用的 CLI 工具及其用法。随后，将你常用的 CLI 列表整合注册进去（`opencli register mycli`），AI 便能瞬间学会自动调用相应的本地工具！
 
 🔥 **opencli 支持 CLI 化所有 electron 应用！最强大更新来袭！** 🔥
 CLI all electron！现在支持把所有 electron 应用 CLI 化，从而组合出各种神奇的能力。
